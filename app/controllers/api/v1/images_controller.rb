@@ -2,6 +2,7 @@ class Api::V1::ImagesController < ApplicationController
 
   def index
     @images = Image.all
+    render json: @images
   end
 
   def create
@@ -21,7 +22,7 @@ class Api::V1::ImagesController < ApplicationController
 private
 
   def image_params
-    params.require(:image).permit(:name, :author, :template_id)
+    params.require(:image).permit(:name, :author, :template_id, :image_file)
   end
 
 

@@ -3,7 +3,7 @@ class CreateTemplates < ActiveRecord::Migration[5.2]
     create_table :templates do |t|
       t.string :name
       t.string :level
-      t.string :image_url
+      t.text :image_url
 
       t.timestamps
     end
