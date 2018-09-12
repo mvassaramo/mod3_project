@@ -8,13 +8,10 @@
 Template.destroy_all
 
 p "Starting seed"
-butterfly_template = Template.create(name: "Butterfly", level: "Easy", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536599392/Image_templates/animal-1769728.svg")
-tree_template = Template.create(name: "Tree", level: "Easy", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536663128/Image_templates/Tree.svg")
-abstract_pattern_template = Template.create(name: "Abstract Pattern", level: "Easy", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536663425/Image_templates/Abstract-pattern.svg")
-rose_template = Template.create(name: "Rose", level: "Easy", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536663643/Image_templates/Rose.svg")
-floral_pattern_template = Template.create(name: "Floral Pattern", level: "Medium", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536664076/Image_templates/Floral-pattern.svg")
-decorative_pattern_template = Template.create(name: "Decorative Pattern", level: "Medium", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536664300/Image_templates/decorative-1769539.svg")
-
+butterfly_template = Template.create(name: "Butterfly", level: "Medium", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536694324/Image_templates/Butterfly_latest.svg")
+tree_template = Template.create(name: "Tree", level: "Easy", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536741735/Image_templates/tree-latest.svg")
+abstract_pattern_template = Template.create(name: "Abstract Pattern", level: "Complex", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536740679/Image_templates/abstract-latest.svg")
+rose_template = Template.create(name: "Rose", level: "Easy", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536692541/Image_templates/rose-latest.svg")
 
 
 # p cub_template
