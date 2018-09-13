@@ -17,6 +17,7 @@ lion_template = Template.create(name: "Lion", level: "Easy", image_url: "https:/
 lotus_template = Template.create(name: "Lotus", level: "Easy", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536766233/Image_templates/lotus.svg")
 elephant_template = Template.create(name: "Elephant", level: "Complex", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536769950/Image_templates/elephant.svg")
 swirl_template = Template.create(name: "Swirl", level: "Easy", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536767919/Image_templates/swirl.svg")
-decor_template = Template.create(name: "Decor", level: "Medium", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536771069/Image_templates/decor.svg")
+decor_temdecor_template = Template.create(name: "Decor", level: "Medium", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536771069/Image_templates/decor.svg")
+sun_template = Template.create(name: "Sun", level: "Medium", image_url: "https://res.cloudinary.com/mvassaramo/image/upload/v1536848219/Image_templates/sun-1781623.svg")
 
 p "Finished seeding"
